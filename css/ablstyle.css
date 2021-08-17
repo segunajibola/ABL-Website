@@ -1,0 +1,54 @@
+#topnav {background-color: blue; 
+}
+
+#topnav ul a{
+	list-style-type: none;
+	float: left;
+	padding: 20px;
+	color: white;	
+}
+#cardhead{
+	color: blue;
+	text-align: center;
+	margin-top: 15px;
+}
+
+#main{
+	display: flex;
+}
+
+#sub{
+	padding: 0px 20px;
+	text-align: justify;
+}
+
+
+#ablani {
+	height: 300px;
+	width: 100%; 
+	animation-name: aniabl;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	margin-top: 30px;
+}
+
+@keyframes aniabl {
+	0%{background-image: url("Italian rice.png");}
+	25%{background-image: url("favicon.jpg");}
+	50%{background-image: url("four bowls.jpeg");}
+	75%{background-image: url("fried rice.jpeg");}
+	100%{background-image: url("Indian rice.jpg");}
+}
+
+#threecards{
+	display: flex;
+	margin: 5px;
+}
+
+#eachcard{
+	padding: 5px 10px;
+}
+
+.card{
+	margin: 10px;
+}
